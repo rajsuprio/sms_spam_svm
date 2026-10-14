@@ -1,10 +1,10 @@
-# 📱 SMS Spam Classification using SVM
+#  SMS Spam Classification using SVM
 
 A machine learning project that classifies SMS messages as either Spam or Ham using a complete text-classification pipeline built with NLP preprocessing and a Linear Support Vector Machine (SVM).
 
 This repository includes data exploration, text cleaning, feature engineering, TF-IDF vectorization, hyperparameter tuning, model validation, and a reusable prediction function for classifying new SMS messages.
 
-## ✨ Features Included
+##  Features Included
 
 This updated project includes the following capabilities:
 
@@ -39,7 +39,7 @@ This updated project includes the following capabilities:
   - confusion matrix
 - A prediction function for real SMS inputs
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the SMS Spam Collection Dataset from Kaggle.
 
@@ -67,7 +67,7 @@ The labels are encoded as:
 - `ham -> 0`
 - `spam -> 1`
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -78,7 +78,7 @@ The labels are encoded as:
 - WordCloud
 - Scikit-learn
 
-## 🔬 Methodology
+##  Methodology
 
 The notebook follows this workflow:
 
@@ -204,7 +204,7 @@ print(predict_sms("Hi, are we meeting tomorrow at 3 PM?"))
 # Ham
 ```
 
-## 📈 Model Performance
+##  Model Performance
 
 The model demonstrates strong classification performance on the test set.
 
@@ -243,7 +243,7 @@ Best CV Score: 0.9787182587666263
 Mean Accuracy: 0.9783316887022269
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 sms_spam_svm/
@@ -255,7 +255,7 @@ sms_spam_svm/
 
 > Note: The dataset file (`spam.csv`) is required to run the notebook. Download it from Kaggle and place it in the project folder before executing the notebook.
 
-## 🚀 How to Run
+##  How to Run
 
 ### Option 1 — Google Colab
 
@@ -293,7 +293,7 @@ SMS_Spam_SVM_raj.ipynb
 
 Then run all cells sequentially.
 
-## 💡 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 
@@ -310,7 +310,7 @@ This project demonstrates:
 - confusion matrix analysis
 - working with SMS spam datasets
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible improvements include:
 
@@ -321,7 +321,7 @@ Possible improvements include:
 - deploying the model as a web app or API
 - extending the project into a real-time SMS filtering system
 
-## 👨‍💻 Author
+##  Author
 
 **Suprio Chattapadhya Raj**
 
